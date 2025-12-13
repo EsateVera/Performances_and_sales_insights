@@ -37,7 +37,7 @@ All analysis was done using Google Sheets with Pivot Tables and formulas, and su
 - Marketing cost vs Revenue  
 - Conversion rate visualization  
 
-## 📈Key Insights from the Analysis
+## Key Insights from the Analysis
 
 ###  Inquiry Trends
 - Pacific Lagos receives the highest volume of inquiries.
