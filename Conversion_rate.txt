@@ -1,0 +1,28 @@
+# Conversion Rate Formulas (Google Sheets)
+
+## New Leads
+=COUNTIF(Inquiry_Data!F:F, "New leads")
+
+## Warm Leads
+=COUNTIF(Inquiry_Data!F:F, "Warm Leads")
+
+## Hot Leads
+=COUNTIF(Inquiry_Data!F:F, "Hot Leads")
+
+## Interested
+=COUNTIF(Inquiry_Data!F:F, "Interested")
+
+## Not Interested
+=COUNTIF(Inquiry_Data!F:F, "Not Interested")
+
+## Follow-Up
+=COUNTIF(Inquiry_Data!F:F, "Follow-up")
+
+## Total Leads
+=COUNTA(Inquiry_Data!A:A)
+
+## Conversion Rate (Interest → Sales)
+=Total_Sales / Total_Interested
+
+## Overall Conversion Rate
+=Total_Sales / Total_Leads
